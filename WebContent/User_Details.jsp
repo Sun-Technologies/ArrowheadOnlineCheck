@@ -17,32 +17,32 @@ table
     {
     border-collapse:separate;
     border-spacing:10px 10px;
-    }
+    background-color: #3CB371;
+	}
+img{
+	border-top: thick double #000000;
+	}
 </style>
 </head>
 <body>
 <form action="userDetails" method="post">
 <br><br><br><br><br><br><br><br>
 <center>
-	<h1>ARROWHEAD</h1>
 	<br>
-	<table cellpadding="20">
+	<table cellpadding="20" width="400">
+	<tr><img src="images\ArrowHead.PNG"  alt="" height=100 width=400></img></tr>
 	<tr>
-	<td><label for="usr">Enter Name : </label></td>
-	<td><input type="text" id="userName" name="userName" placeholder="Enter Name" class="form-control"></td>
+	<td class="col-xs-2"><input type="text" id="userName" name="userName" size=5 placeholder="Enter Name" class="form-control"></td>
 	</tr>
 	<tr>
-	<td><label for="usr">Enter Amount : </label></td>
-	<td><input type="text" id="amount" name="amount" placeholder="Enter Amount" class="form-control"></td>
+	<td class="col-xs-2"><input type="text" id="amount" name="amount" placeholder="Enter Amount" class="form-control"></td>
 	</tr>
 	
 	<tr>
-	<td><label for="usr">Enter Date : </label></td> 
-	<td><input type="text" id="date" name="date" placeholder="Enter Date" class="form-control"></td>
+	<td class="col-xs-2"><input type="text" id="date" name="date" placeholder="Enter Date" class="form-control"></td>
 	</tr>
 	<tr>
-	<td></td>
-	<td><input type="submit" value="Submit" class="btn btn-primary"></td>
+	<td><center><input type="submit" value="Submit" class="btn btn-primary active"></center></td>
 	</tr>
 	</table>
 </center>
