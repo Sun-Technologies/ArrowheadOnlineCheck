@@ -6,8 +6,8 @@ import org.im4java.utils.FilenamePatternResolver;
 
 public class Generate_check {
 	public String print(String name,String amount,String date){
-		String src="E:\\workspace\\ArrowheadCheckPrint\\WebContent\\images\\source.jpg";
-		String dest="E:\\apache-tomcat-8.0.30\\webapps\\ArrowheadCheckPrint\\images\\dest.jpg";
+		String src="E:\\workspace\\ArrowheadOnlineCheck\\WebContent\\images\\source.jpg";
+		String dest="E:\\apache-tomcat-8.0.30\\webapps\\ArrowheadOnlineCheck\\images\\dest.jpg";
 		
 		IMOperation op = new IMOperation(); //imagemagick operator for command line tools
 
